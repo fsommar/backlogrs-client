@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entry_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        android:id="@+id/list_game_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Status"
+        android:id="@+id/list_entry_status"
+        android:layout_alignBaseline="@+id/list_game_title"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/list_game_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="12 hrs"
+        android:id="@+id/list_entry_time_played"
+        android:layout_toEndOf="@+id/list_entry_status"
+        android:layout_alignBaseline="@+id/list_entry_status"
+        android:layout_marginStart="6dp" />
+</RelativeLayout>

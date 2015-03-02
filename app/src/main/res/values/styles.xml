@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/primaryDark</item>
+        <!-- The color applied to framework controls in their normal state. -->
+        <item name="android:colorControlNormal">@color/accent</item>
+        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        <item name="android:colorControlActivated">@color/accentDark</item>
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors).
+        <item name="android:colorControlHighlight">@color/accent</item> -->
+        <!-- The color applied to framework buttons in their normal state. -->
+        <item name="android:colorButtonNormal">@color/accent</item>
+    </style>
+
+</resources>
